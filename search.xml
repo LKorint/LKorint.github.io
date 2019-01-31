@@ -1,6 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[安装bbr]]></title>
+    <url>%2F2019%2F01%2F31%2F%E5%AE%89%E8%A3%85bbr%2F</url>
+    <content type="text"></content>
+  </entry>
+  <entry>
+    <title><![CDATA[v2ray搭建教程]]></title>
+    <url>%2F2019%2F01%2F31%2Fv2ray%E6%95%99%E7%A8%8B%2F</url>
+    <content type="text"><![CDATA[##1、部署vps①virmach(https://billing.virmach.com/cart.php) 1.25💵/m②nfp(https://portal.nfphosting.com/cart.php?a=confproduct&amp;i=0) 5/Y ##2、使用v2ray脚本源项目(https://github.com/Jrohy/multi-v2ray#%E7%89%B9%E8%89%B2) ###安装1source &lt;(curl -sL https://git.io/fNgqx) ###升级1source &lt;(curl -sL https://git.io/fNgqx) -k ###卸载1source &lt;(curl -sL https://git.io/fNgqx) --remove 脚本内不提供修改加密方式，因为服务器自适应加密，只需在客户端中修改，推荐gcm。]]></content>
+      <categories>
+        <category>V2RAY</category>
+      </categories>
+      <tags>
+        <tag>V2RAY</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[Hello World]]></title>
     <url>%2F2019%2F01%2F31%2Fhello-world%2F</url>
     <content type="text"><![CDATA[Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick StartCreate a new post1$ hexo new "My New Post" More info: Writing Run server1$ hexo server More info: Server Generate static files1$ hexo generate More info: Generating Deploy to remote sites1$ hexo deploy More info: Deployment]]></content>
