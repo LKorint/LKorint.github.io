@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://LKorint.github.io/"/>
-  <updated>2019-01-31T12:29:27.854Z</updated>
+  <updated>2019-01-31T12:53:55.442Z</updated>
   <id>https://LKorint.github.io/</id>
   
   <author>
@@ -17,16 +17,28 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>安装bbr</title>
+    <title>为v2ray加速:安装bbr</title>
     <link href="https://LKorint.github.io/2019/01/31/%E5%AE%89%E8%A3%85bbr/"/>
     <id>https://LKorint.github.io/2019/01/31/安装bbr/</id>
     <published>2019-01-31T12:29:27.000Z</published>
-    <updated>2019-01-31T12:29:27.854Z</updated>
+    <updated>2019-01-31T12:53:55.442Z</updated>
+    
+    <content type="html"><![CDATA[<p>BBR加速：KVM服务器和openvz服务器</p><p>##<strong>1、KVM服务器</strong><br>源项目(<em><a href="https://www.94ish.me/1635.html" target="_blank" rel="noopener">https://www.94ish.me/1635.html</a></em>)<br><strong>一键脚本</strong><br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">wget -N --no-check-certificate &quot;https://raw.githubusercontent.com/chiakge/Linux-NetSpeed/master/tcp.sh&quot;</span><br><span class="line">chmod +x tcp.sh</span><br></pre></td></tr></table></figure></p><p>安装后可以输入↓来使用<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">./tcp.sh</span><br></pre></td></tr></table></figure></p><p>记得更新脚本（内置更新）<br>据网络上的测试  BBRplus=锐速&gt;bbr魔改版&gt;原版bbr<br><strong><em>注：只加速传输方式TCP！！</em></strong><br><strong>脚本说明:支持系统Centos 6+ / Debian 7+ / Ubuntu 14+ BBR魔改版不支持Debian 8</strong></p><p>##<strong>2、opvz服务器<br>源项目(<em><a href="https://blog.kuoruan.com/116.html" target="_blank" rel="noopener">https://blog.kuoruan.com/116.html</a></em>)</strong>脚本**<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">wget https://raw.githubusercontent.com/kuoruan/shell-scripts/master/ovz-bbr/ovz-bbr-installer.sh</span><br><span class="line">chmod +x ovz-bbr-installer.sh</span><br><span class="line">./ovz-bbr-installer.sh</span><br></pre></td></tr></table></figure></p><p><strong>需要关闭防火墙</strong><br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">systemctl stop firewalld</span><br><span class="line">systemctl disable firewalld</span><br></pre></td></tr></table></figure></p><p>如有错误请在源项目中查找并解决。</p>]]></content>
     
     <summary type="html">
     
+      
+      
+        &lt;p&gt;BBR加速：KVM服务器和openvz服务器&lt;/p&gt;
+&lt;p&gt;##&lt;strong&gt;1、KVM服务器&lt;/strong&gt;&lt;br&gt;源项目(&lt;em&gt;&lt;a href=&quot;https://www.94ish.me/1635.html&quot; target=&quot;_blank&quot; rel=&quot;noopen
+      
+    
     </summary>
     
+      <category term="V2RAY" scheme="https://LKorint.github.io/categories/V2RAY/"/>
+    
+    
+      <category term="V2RAY" scheme="https://LKorint.github.io/tags/V2RAY/"/>
     
   </entry>
   
@@ -52,27 +64,6 @@
     
     
       <category term="V2RAY" scheme="https://LKorint.github.io/tags/V2RAY/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Hello World</title>
-    <link href="https://LKorint.github.io/2019/01/31/hello-world/"/>
-    <id>https://LKorint.github.io/2019/01/31/hello-world/</id>
-    <published>2019-01-31T11:44:54.874Z</published>
-    <updated>2019-01-30T09:52:13.713Z</updated>
-    
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
-      
-    
-    </summary>
-    
     
   </entry>
   
