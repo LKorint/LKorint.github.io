@@ -2,6 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://LKorint.github.io/tags/index.html</loc>
+    
+    <lastmod>2019-01-31T13:01:54.742Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://LKorint.github.io/categories/index.html</loc>
+    
+    <lastmod>2019-01-31T13:01:48.920Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://LKorint.github.io/2019/01/31/%E5%AE%89%E8%A3%85bbr/</loc>
     
     <lastmod>2019-01-31T12:53:55.442Z</lastmod>
@@ -12,20 +26,6 @@
     <loc>https://LKorint.github.io/2019/01/31/v2ray%E6%95%99%E7%A8%8B/</loc>
     
     <lastmod>2019-01-31T12:28:53.782Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://LKorint.github.io/tags/index.html</loc>
-    
-    <lastmod>2019-01-31T10:52:18.034Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://LKorint.github.io/categories/index.html</loc>
-    
-    <lastmod>2019-01-31T10:51:04.969Z</lastmod>
     
   </url>
   
