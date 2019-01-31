@@ -14,7 +14,7 @@
   <entry>
     <title><![CDATA[v2ray搭建教程]]></title>
     <url>%2F2019%2F01%2F31%2Fv2ray%E6%95%99%E7%A8%8B%2F</url>
-    <content type="text"><![CDATA[1、部署vps①virmach(https://billing.virmach.com/cart.php) 1.25💵/m②nfp(https://portal.nfphosting.com/cart.php?a=confproduct&amp;i=0) 5/Y 2、使用v2ray脚本源项目(https://github.com/Jrohy/multi-v2ray#%E7%89%B9%E8%89%B2) 安装1source &lt;(curl -sL https://git.io/fNgqx) 升级1source &lt;(curl -sL https://git.io/fNgqx) -k 卸载1source &lt;(curl -sL https://git.io/fNgqx) --remove 脚本内不提供修改加密方式，因为服务器自适应加密，只需在客户端中修改，推荐gcm。]]></content>
+    <content type="text"><![CDATA[1、部署vps①virmach(https://billing.virmach.com/cart.php) 1.25💵/m②nfp(https://portal.nfphosting.com/cart.php?a=confproduct&amp;i=0) 5/Y **2、尽量关闭vps防火墙12systemctl stop firewalldsystemctl disable firewalld 3、使用v2ray脚本源项目(https://github.com/Jrohy/multi-v2ray#%E7%89%B9%E8%89%B2) 安装1source &lt;(curl -sL https://git.io/fNgqx) 升级1source &lt;(curl -sL https://git.io/fNgqx) -k 卸载1source &lt;(curl -sL https://git.io/fNgqx) --remove 脚本内不提供修改加密方式，因为服务器自适应加密，只需在客户端中修改，推荐gcm。]]></content>
       <categories>
         <category>V2RAY</category>
       </categories>
