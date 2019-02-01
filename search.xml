@@ -3,9 +3,10 @@
   <entry>
     <title><![CDATA[为v2ray加速:安装bbr]]></title>
     <url>%2F2019%2F01%2F31%2F%E5%AE%89%E8%A3%85bbr%2F</url>
-    <content type="text"><![CDATA[BBR加速：KVM服务器和OPVZ服务器 1、KVM服务器源项目(https://www.94ish.me/1635.html)一键脚本12wget -N --no-check-certificate &quot;https://raw.githubusercontent.com/chiakge/Linux-NetSpeed/master/tcp.sh&quot;chmod +x tcp.sh 安装后可以输入↓来使用1./tcp.sh 记得更新脚本（内置更新）据网络上的测试 BBRplus=锐速&gt;bbr魔改版&gt;原版bbr注：只加速传输方式TCP！！脚本说明:支持系统Centos 6+ / Debian 7+ / Ubuntu 14+ BBR魔改版不支持Debian 8 2、OPVZ服务器源项目(https://blog.kuoruan.com/116.html)脚本123wget https://raw.githubusercontent.com/kuoruan/shell-scripts/master/ovz-bbr/ovz-bbr-installer.shchmod +x ovz-bbr-installer.sh./ovz-bbr-installer.sh 需要关闭防火墙12systemctl stop firewalldsystemctl disable firewalld 如有错误请在源项目中查找并解决。]]></content>
+    <content type="text"><![CDATA[BBR加速：KVM服务器和OPVZ服务器 1、KVM服务器===源项目===一键脚本12wget -N --no-check-certificate &quot;https://raw.githubusercontent.com/chiakge/Linux-NetSpeed/master/tcp.sh&quot;chmod +x tcp.sh 安装后可以输入↓来使用1./tcp.sh 记得更新脚本（内置更新）据网络上的测试 BBRplus=锐速&gt;bbr魔改版&gt;原版bbr注：只加速传输方式TCP！！脚本说明:支持系统Centos 6+ / Debian 7+ / Ubuntu 14+ BBR魔改版不支持Debian 8 2、OPVZ服务器===源项目===脚本123wget https://raw.githubusercontent.com/kuoruan/shell-scripts/master/ovz-bbr/ovz-bbr-installer.shchmod +x ovz-bbr-installer.sh./ovz-bbr-installer.sh 需要关闭防火墙12systemctl stop firewalldsystemctl disable firewalld 如有错误请在源项目中查找并解决。]]></content>
       <categories>
         <category>V2RAY</category>
+        <category>加速</category>
       </categories>
       <tags>
         <tag>V2RAY</tag>
@@ -14,7 +15,7 @@
   <entry>
     <title><![CDATA[v2ray搭建教程]]></title>
     <url>%2F2019%2F01%2F31%2Fv2ray%E6%95%99%E7%A8%8B%2F</url>
-    <content type="text"><![CDATA[1、部署vps①virmach(https://billing.virmach.com/cart.php) 1.25💵/m②nfp(https://portal.nfphosting.com/cart.php?a=confproduct&amp;i=0) 5/Y 2、尽量关闭vps防火墙12systemctl stop firewalldsystemctl disable firewalld 3、使用v2ray脚本源项目(https://github.com/Jrohy/multi-v2ray#%E7%89%B9%E8%89%B2) 安装1source &lt;(curl -sL https://git.io/fNgqx) 升级1source &lt;(curl -sL https://git.io/fNgqx) -k 卸载1source &lt;(curl -sL https://git.io/fNgqx) --remove 脚本内不提供修改加密方式，因为服务器自适应加密，只需在客户端中修改，推荐gcm。]]></content>
+    <content type="text"><![CDATA[1、部署vps①virmach(https://billing.virmach.com/cart.php) 1.25💵/m②nfp(https://portal.nfphosting.com/cart.php?a=confproduct&amp;i=0) 5/Y 2、尽量关闭vps防火墙12systemctl stop firewalldsystemctl disable firewalld 3、使用v2ray脚本===源项目=== 安装1source &lt;(curl -sL https://git.io/fNgqx) 升级1source &lt;(curl -sL https://git.io/fNgqx) -k 卸载1source &lt;(curl -sL https://git.io/fNgqx) --remove 脚本内不提供修改加密方式，因为服务器自适应加密，只需在客户端中修改，推荐gcm。]]></content>
       <categories>
         <category>V2RAY</category>
       </categories>
