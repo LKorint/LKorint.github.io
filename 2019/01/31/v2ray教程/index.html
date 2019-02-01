@@ -56,7 +56,7 @@
 <h2 id="部署vps"><a href="#部署vps" class="headerlink" title="部署vps"></a><strong>部署vps</strong></h2></blockquote>
 <p>①virmach(<em><a href="https://billing.virmach.com/cart.php" target="_blank" rel="noopener">https://billing.virmach.com/cart.php</a></em>) 1.25💵/m<br>②nfp(<em><a href="https://portal.nfphosting.com/cart.php?a=confproduct&amp;i=0" target="_blank" rel="noopener">https://portal.nfphosting.com/cart.php?a=confproduct&amp;i=0</a></em>) 5/Y</p>
 <blockquote>
-<h2 id="尽量关闭vps防火墙"><a href="#尽量关闭vps防火墙" class="headerlink" title="尽量关闭vps防火墙"></a><strong>尽量关闭vps防火墙</strong></h2></blockquote>
+<h2 id="centos系统尽量关闭vps防火墙"><a href="#centos系统尽量关闭vps防火墙" class="headerlink" title="centos系统尽量关闭vps防火墙"></a><strong>centos系统尽量关闭vps防火墙</strong></h2></blockquote>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">systemctl stop firewalld</span><br><span class="line">systemctl disable firewalld</span><br></pre></td></tr></table></figure>
 <blockquote>
 <h2 id="使用v2ray脚本"><a href="#使用v2ray脚本" class="headerlink" title="使用v2ray脚本"></a><strong>使用v2ray脚本</strong></h2></blockquote>
@@ -64,7 +64,7 @@
 <h3 id="安装"><a href="#安装" class="headerlink" title="安装"></a><strong>安装</strong></h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">source &lt;(curl -sL https://git.io/fNgqx)</span><br></pre></td></tr></table></figure>
 <h3 id="升级"><a href="#升级" class="headerlink" title="升级"></a><strong>升级</strong></h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">source &lt;(curl -sL https://git.io/fNgqx) -k</span><br></pre></td></tr></table></figure>
 <h3 id="卸载"><a href="#卸载" class="headerlink" title="卸载"></a><strong>卸载</strong></h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">source &lt;(curl -sL https://git.io/fNgqx) --remove</span><br></pre></td></tr></table></figure>
-<p>脚本内不提供修改加密方式，因为服务器自适应加密，只需在客户端中修改，推荐gcm。</p>
+<p><em>脚本内不提供修改加密方式，因为服务器自适应加密，只需在客户端中修改，推荐gcm。</em></p>
 
             <!--[if lt IE 9]><script>document.createElement('audio');</script><![endif]-->
             <audio id="audio" loop="1" preload="auto" controls="controls" data-autoplay="false">
@@ -83,7 +83,7 @@
     </div>
     
         <div class="side">
-            <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#部署vps"><span class="toc-number">1.</span> <span class="toc-text">部署vps</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#尽量关闭vps防火墙"><span class="toc-number">2.</span> <span class="toc-text">尽量关闭vps防火墙</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#使用v2ray脚本"><span class="toc-number">3.</span> <span class="toc-text">使用v2ray脚本</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#安装"><span class="toc-number">3.1.</span> <span class="toc-text">安装</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#升级"><span class="toc-number">3.2.</span> <span class="toc-text">升级</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#卸载"><span class="toc-number">3.3.</span> <span class="toc-text">卸载</span></a></li></ol></li></ol>
+            <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#部署vps"><span class="toc-number">1.</span> <span class="toc-text">部署vps</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#centos系统尽量关闭vps防火墙"><span class="toc-number">2.</span> <span class="toc-text">centos系统尽量关闭vps防火墙</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#使用v2ray脚本"><span class="toc-number">3.</span> <span class="toc-text">使用v2ray脚本</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#安装"><span class="toc-number">3.1.</span> <span class="toc-text">安装</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#升级"><span class="toc-number">3.2.</span> <span class="toc-text">升级</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#卸载"><span class="toc-number">3.3.</span> <span class="toc-text">卸载</span></a></li></ol></li></ol>
         </div>
     
 </div>
