@@ -15,7 +15,7 @@
   <entry>
     <title><![CDATA[v2ray搭建教程]]></title>
     <url>%2F2019%2F01%2F31%2Fv2ray%E6%95%99%E7%A8%8B%2F</url>
-    <content type="text"><![CDATA[部署vps ①virmach(https://billing.virmach.com/cart.php) 1.25💵/m②nfp(https://portal.nfphosting.com/cart.php?a=confproduct&amp;i=0) 5/Y 脚本系统要求 Debian 7Debian 8Debian 9Ubuntu 14Ubuntu 16Ubuntu 18CentOS 7Fedora 28Fedora 29 不支持Centos 6 centos系统尽量关闭防火墙 12systemctl stop firewalldsystemctl disable firewalld 使用v2ray脚本 ===源项目=== 安装1source &lt;(curl -sL https://git.io/fNgqx) 升级1source &lt;(curl -sL https://git.io/fNgqx) -k 卸载1source &lt;(curl -sL https://git.io/fNgqx) --remove 脚本内不提供修改加密方式，因为服务器自适应加密，只需在客户端中修改，推荐gcm。]]></content>
+    <content type="text"><![CDATA[部署vps ①virmach(https://billing.virmach.com/cart.php) 1.25💵/m②nfp(https://portal.nfphosting.com/cart.php?a=confproduct&amp;i=0) 5/Y 脚本系统要求 Debian 7Debian 8Debian 9Ubuntu 14Ubuntu 16Ubuntu 18CentOS 7Fedora 28Fedora 29 不支持Centos 6 centos7尽量关闭防火墙 12systemctl stop firewalldsystemctl disable firewalld 使用v2ray脚本 ===源项目=== 安装1source &lt;(curl -sL https://git.io/fNgqx) 升级1source &lt;(curl -sL https://git.io/fNgqx) -k 卸载1source &lt;(curl -sL https://git.io/fNgqx) --remove 脚本内不提供修改加密方式，因为服务器自适应加密，只需在客户端中修改，推荐gcm。]]></content>
       <categories>
         <category>V2RAY</category>
       </categories>
