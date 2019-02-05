@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[v2ray.fun，基于web的v2ray控制面板]]></title>
+    <url>%2F2019%2F02%2F06%2Fv2ray-fun%EF%BC%8C%E5%9F%BA%E4%BA%8Eweb%E7%9A%84v2ray%E6%90%AD%E5%BB%BA%E5%B7%A5%E5%85%B7%2F</url>
+    <content type="text"><![CDATA[===源项目=== 简介 一个基于 Web 的 V2ray 控制面板，来自雨落无声，由于作者还没完全完成，所以仅供测试。不过效果那是非常的炫酷，可以去源项目查看XD 系统支持 请务必使用新系统，纯净的VPS系统安装!!!Debian 8Debian 9Ubuntu 14Ubuntu 16CentOS 7 不支持CentOS 6 一键安装 1wget -N --no-check-certificate https://raw.githubusercontent.com/FunctionClub/V2ray.Fun/master/install.sh &amp;&amp; bash install.sh]]></content>
+      <tags>
+        <tag>V2RAY</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[为v2ray加速:安装bbr]]></title>
     <url>%2F2019%2F01%2F31%2F%E5%AE%89%E8%A3%85bbr%2F</url>
     <content type="text"><![CDATA[BBR加速：KVM服务器和OVZ服务器 KVM服务器 ===源项目===一键脚本1wget &quot;https://github.com/chiakge/Linux-NetSpeed/raw/master/tcp.sh&quot; &amp;&amp; chmod +x tcp.sh &amp;&amp; ./tcp.sh 如果没有wget，可以先安装wget1yum -y install wget 提示证书错误的话1yum -y install ca-certificates 或者1apt-get -y install ca-certificates 安装后可以输入↓来使用1./tcp.sh 记得更新脚本（内置更新）据网络上的测试 BBRplus=锐速&gt;bbr魔改版&gt;原版bbr注：只加速传输方式TCP！！脚本说明:支持系统Centos 6+ / Debian 7+ / Ubuntu 14+ BBR魔改版不支持Debian 8 OVZ服务器 ===源项目===脚本123wget https://raw.githubusercontent.com/kuoruan/shell-scripts/master/ovz-bbr/ovz-bbr-installer.shchmod +x ovz-bbr-installer.sh./ovz-bbr-installer.sh 需要关闭防火墙12systemctl stop firewalldsystemctl disable firewalld 如有错误请在源项目中查找并解决。]]></content>
