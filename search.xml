@@ -11,7 +11,7 @@
   <entry>
     <title><![CDATA[为v2ray加速:安装bbr]]></title>
     <url>%2F2019%2F01%2F31%2F%E5%AE%89%E8%A3%85bbr%2F</url>
-    <content type="text"><![CDATA[BBR加速：KVM服务器和OVZ服务器 KVM服务器 ===源项目===一键脚本1wget &quot;https://github.com/chiakge/Linux-NetSpeed/raw/master/tcp.sh&quot; &amp;&amp; chmod +x tcp.sh &amp;&amp; ./tcp.sh 如果没有wget，可以先安装wget1yum -y install wget 提示证书错误的话1yum -y install ca-certificates 或者1apt-get -y install ca-certificates 安装后可以输入↓来使用1./tcp.sh 记得更新脚本（内置更新）据网络上的测试 BBRplus=锐速&gt;bbr魔改版&gt;原版bbr注：只加速传输方式TCP！！脚本说明:支持系统Centos 6+ / Debian 7+ / Ubuntu 14+ BBR魔改版不支持Debian 8 OVZ服务器 ===源项目===脚本123wget https://raw.githubusercontent.com/kuoruan/shell-scripts/master/ovz-bbr/ovz-bbr-installer.shchmod +x ovz-bbr-installer.sh./ovz-bbr-installer.sh 需要关闭防火墙12systemctl stop firewalldsystemctl disable firewalld 如有错误请在源项目中查找并解决。]]></content>
+    <content type="text"><![CDATA[BBR加速：KVM服务器和OVZ服务器 KVM服务器 ===源项目===一键脚本1wget -N --no-check-certificate &quot;https://raw.githubusercontent.com/chiakge/Linux-NetSpeed/master/tcp.sh&quot; &amp;&amp; chmod +x tcp.sh &amp;&amp; ./tcp.sh 如果没有wget，可以先安装wget1yum -y install wget 提示证书错误的话1yum -y install ca-certificates 或者1apt-get -y install ca-certificates 安装后可以输入↓来使用1./tcp.sh 记得更新脚本（内置更新）据网络上的测试 BBRplus=锐速&gt;bbr魔改版&gt;原版bbr注：只加速传输方式TCP！！脚本说明:支持系统Centos 6+ / Debian 7+ / Ubuntu 14+ BBR魔改版不支持Debian 8 OVZ服务器 ===源项目===脚本123wget https://raw.githubusercontent.com/kuoruan/shell-scripts/master/ovz-bbr/ovz-bbr-installer.shchmod +x ovz-bbr-installer.sh./ovz-bbr-installer.sh 需要关闭防火墙12systemctl stop firewalldsystemctl disable firewalld 如有错误请在源项目中查找并解决。]]></content>
       <categories>
         <category>V2RAY</category>
         <category>加速</category>
